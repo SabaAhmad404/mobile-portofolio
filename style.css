@@ -49,7 +49,7 @@ p {
   justify-content: flex-start;
 }
 
-.socials {
+.social {
   list-style: none;
   color: rgb(20, 126, 126);
   display: flex;
@@ -59,7 +59,7 @@ p {
   transition: color 0.5s ease;
 }
 
-.socials :hover {
+.social:hover {
   color: brown;
 }
 
