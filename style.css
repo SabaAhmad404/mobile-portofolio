@@ -1,5 +1,5 @@
 body {
-  background-image: url("/image/picture.png");
+  background-image: url("/image/picturee.png");
   background-repeat: repeat;
   background-size: cover;
 }
@@ -10,7 +10,7 @@ body {
   color: #6070ff;
   font-size: 30px;
   font-weight: 700;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   display: flex;
   align-items: center;
@@ -33,7 +33,7 @@ h1 {
   padding-top: 40px;
   padding-left: 60px;
   font-size: 48px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 60px;
   display: flex;
   align-items: center;
@@ -50,7 +50,7 @@ p {
   padding-left: 60px;
   color: #344563;
   font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 20px;
   font-style: normal;
   flex-wrap: wrap;
@@ -77,7 +77,7 @@ p {
 .connect {
   color: #7f8cff;
   padding-left: 60px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
