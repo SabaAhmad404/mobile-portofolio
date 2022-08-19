@@ -1,20 +1,25 @@
 body {
-  background-image: url('../mobile-portofolio/image/sabaahmad.png');
-  background-attachment: fixed;
+  background-image: url("/image/picturee.png");
   background-repeat: repeat;
   background-size: cover;
 }
 
 .logo {
-  color: rgb(66, 66, 223);
-  font-size: 36px;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
+  width: 76px;
+  height: 20px;
+  color: #6070ff;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 #item {
-  color: rgb(66, 66, 223);
-  font-size: 36px;
+  color: #6070ff;
+  font-size: 30px;
   float: right;
   transition: color 0.5s ease;
 }
@@ -24,43 +29,37 @@ body {
 }
 
 h1 {
-  color: rgb(28, 16, 108);
-  font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;
-  align-items: flex-end;
-  margin-left: 10px;
+  color: #172b4d;
+  width: 327px;
+  height: 150px;
+  padding-top: 40px;
+  padding-left: 30px;
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.36px;
+  font-weight: 700;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 p {
-  color: rgb(24, 75, 186);
-  font-size: 20px;
-  font-family: 'Times New Roman', Times, serif;
-  flex-wrap: wrap;
-  margin-left: 10px;
-}
-
-.connect {
-  color: rgb(6, 69, 141);
-  font-size: 18px;
-  font-family: sans-serif;
-  padding-left: 4px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-
-.socials {
-  list-style: none;
-  color: rgb(20, 126, 126);
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 20px;
-  transition: color 0.5s ease;
-}
-
-.socials :hover {
-  color: brown;
+  width: 327px;
+  height: 146px;
+  padding-left: 30px;
+  margin: 8px 8px 8px 8px;
+  color: #344563;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 400;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .container {
@@ -75,4 +74,32 @@ p {
   flex-direction: column;
   justify-content: left;
   align-items: flex-start;
+}
+
+.connect {
+  color: #7f8cff;
+  padding-left: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 10px;
+  align-items: flex-start;
+  left: 10px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.icone {
+  list-style: none;
+  display: flex;
+  color: #505f79;
+  gap: 14px;
+  padding-left: 30px;
+  transition: color 0.5s ease;
+}
+
+.icone:hover {
+  color: brown;
 }
