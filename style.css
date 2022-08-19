@@ -29,12 +29,14 @@ body {
 }
 
 h1 {
-  color: #091e42;
+  color: #172b4d;
+  width: 327px;
+  height: 150px;
   padding-top: 40px;
-  padding-left: 60px;
-  font-size: 48px;
+  padding-left: 30px;
+  font-size: 40px;
   font-family: 'Poppins', sans-serif;
-  line-height: 60px;
+  line-height: 52px;
   display: flex;
   align-items: center;
   letter-spacing: 0.36px;
@@ -45,15 +47,15 @@ h1 {
 }
 
 p {
-  width: 920px;
-  height: 60px;
-  padding-left: 60px;
+  width: 327px;
+  height: 146px;
+  padding-left: 30px;
+  margin: 8px 8px 8px 8px;
   color: #344563;
-  font-size: 20px;
+  font-size: 16px;
   font-family: 'Poppins', sans-serif;
-  line-height: 20px;
+  line-height: 24px;
   font-style: normal;
-  flex-wrap: wrap;
   font-weight: 400;
   flex: none;
   order: 1;
@@ -76,7 +78,7 @@ p {
 
 .connect {
   color: #7f8cff;
-  padding-left: 60px;
+  padding-left: 30px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -93,24 +95,11 @@ p {
   list-style: none;
   display: flex;
   color: #505f79;
-  gap: 8px;
-  padding-left: 50px;
+  gap: 14px;
+  padding-left: 30px;
   transition: color 0.5s ease;
 }
 
 .icone:hover {
   color: brown;
-}
-
-.icone li {
-  margin: 0 10px;
-}
-
-.icone a i {
-  font-size: 1.1rem;
-  transition: color 0.4s ease;
-}
-
-.icone a:hover i {
-  color: rgb(170, 12, 91);
 }
