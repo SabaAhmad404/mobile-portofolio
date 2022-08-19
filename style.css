@@ -7,10 +7,10 @@ body {
 .logo {
   width: 76px;
   height: 20px;
-  color: #6070FF;
+  color: #6070ff;
   font-size: 30px;
   font-weight: 700;
-  font-family:'poppins';
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   display: flex;
   align-items: center;
@@ -18,7 +18,7 @@ body {
 }
 
 #item {
-  color: #6070FF;
+  color: #6070ff;
   font-size: 30px;
   float: right;
   transition: color 0.5s ease;
@@ -29,9 +29,9 @@ body {
 }
 
 h1 {
-  color: #091E42;
+  color: #091e42;
   font-size: 48px;
-  font-family:'poppins';
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 60px;
   display: flex;
   align-items: center;
@@ -47,7 +47,7 @@ p {
   height: 60px;
   color: #344563;
   font-size: 20px;
-  font-family:'poppins';
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 20px;
   font-style: normal;
   flex-wrap: wrap;
@@ -56,6 +56,7 @@ p {
   order: 1;
   flex-grow: 0;
 }
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -71,8 +72,8 @@ p {
 }
 
 .connect {
-  color: #7F8CFF;
-  font-family: 'Poppins';
+  color: #7f8cff;
+  font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -87,13 +88,11 @@ p {
 .icone {
   list-style: none;
   display: flex;
-  color: #505F79;
+  color: #505f79;
   gap: 8px;
   left: 2px;
-  padding-left: 0px;
-  ;
+  padding-left: 0;
   transition: color 0.5s ease;
-  
 }
 
 .icone:hover {
@@ -101,14 +100,14 @@ p {
 }
 
 .icone li {
-    margin: 0 10px;
-  }
-  
-  .icone a i {
+  margin: 0 10px;
+}
+
+.icone a i {
   font-size: 1.1rem;
   transition: color 0.4s ease;
-  }
-  
-  .icone a:hover i {
+}
+
+.icone a:hover i {
   color: rgb(170, 12, 91);
-  }
+}
